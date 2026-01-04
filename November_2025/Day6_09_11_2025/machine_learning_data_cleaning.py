@@ -1,0 +1,12 @@
+import pandas as pd
+df = pd.read_csv("diamonds.csv")
+# finding_null = df.isnull()
+# print(finding_null)
+# finding_null_count = df.isnull().sum()
+# print(finding_null_count)
+finding_null_data_count_overall = df.isnull().sum().sum()
+print(finding_null_data_count_overall)
+df.dropna(inplace=True)
+print(df)
+finding_null_data_count_overall_after = df.isnull().sum().sum()
+print(finding_null_data_count_overall_after)

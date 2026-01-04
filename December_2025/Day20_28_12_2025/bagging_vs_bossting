@@ -1,0 +1,18 @@
+Bagging Vs Boosting:
+
+Bagging:
+
+1. Decision Tree and Random Forest
+2. parallel process
+3. all the tress will be evaluated all at once.
+
+
+Boosting:
+
+1. Ada Boosting, XG Boosting, Gradient Boosting
+2. Series process
+3. all the trees will be evaluated one after the another
+4. So error in the previous tree can be used for better
+learning of the next tree.
+
+Both we called as "Ensemble Method" (Assembly)

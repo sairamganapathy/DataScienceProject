@@ -1,0 +1,19 @@
+1. supervised learning
+2. Logistic regression
+   2.1 It is for classification
+   2.2 It is widely used for binary classification
+   2.3 It can also work for multi classifier as well
+
+Pitch   Rain    Play
+dry     no      yes
+damp    no      yes
+wet     yes     no
+
+Target: Play
+
+Yes = True = 1
+No = False = 0
+
+Binary classifier because it does not return any of the output
+
+Input:linear

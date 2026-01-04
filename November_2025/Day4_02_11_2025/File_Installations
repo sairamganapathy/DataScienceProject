@@ -1,0 +1,23 @@
+Virtual Environment Creation
+1. Python in Pycharm
+2. How to Run the python code and basic settings
+3. Installation of libraries.
+
+Installation procedure:
+
+template: pip install <lib_name>
+example : pip install pandas
+
+If you want to install more than one library:
+
+template: pip install <lib_nam> <lib_name>
+example : pip install pandas matplotlib seaborn scikit-learn scipy
+
+if you want to install with file.Then do the following
+
+template: create a file with any name (requirement is what i prefer the name)
+and start listing each library name one after the another in new line
+
+then run the following commands
+
+pip install -r requirements

@@ -1,0 +1,59 @@
+data = {
+    "Study_Hours": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "Test_Score": [35, 40, 45, 50, 55, 65, 70, 75, 85, 90],
+    "Result": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]   # 0 = Fail, 1 = Pass
+}
+
+   Study_Hours  Test_Score  Result
+0            1          35       0
+1            2          40       0
+2            3          45       0
+3            4          50       0
+4            5          55       0
+5            6          65       1
+6            7          70       1
+7            8          75       1
+8            9          85       1
+9           10          90       1
+
+60:40
+
+60 train data:
+
+   Study_Hours  Test_Score
+5            6          65      1
+0            1          35      0
+7            8          75      1
+2            3          45      0
+9           10          90      1
+4            5          55      0
+3            4          50      0
+6            7          70      1
+
+actual_input:
+
+8    1  (True)
+1    0  (False)
+6    1   (True)
+5    1   (True)
+
+y_pred
+
+
+8   1  (True)
+1   0  (False)
+6   0  (False)
+5   1   (True)
+                                       Predicted_True   Predicted_False
+                     Actual True           2  (TP)              1(FN)
+                     Actual  False         0   (FP)             1(TN)
+
+                     [[1,0]
+                      [0,1]]
+
+Actual True + Predicted True ===> True Positive
+Actual False + Predicted False ===> True Negative
+Actual True  + Predicated False ===> False Negative
+Actual False + Predicted True ===> False Positive
+
+
