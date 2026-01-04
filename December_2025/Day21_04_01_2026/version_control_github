@@ -1,0 +1,15 @@
+Step1: Download the git in local
+In some cases even after download of git it does not reflect quickly. Close and open once
+Step2: Initialize the GIT in pycharm terminal
+git init
+Step3: Clone the Github to local
+git clone https://github.com/sairamganapathy/DataScienceProject
+Step4: Do not change in master branch, create a new branch
+git checkout -b "sairam_branch"
+Step5: Make changes as required to the code
+Step6: Commit the changes(now changes are made to local copy)
+Step7: Push the changes to GitHub(changes are pushed to Github - needs access)
+Step8: Go to github and pull request
+Step9: This goes to the owner of the project and he will approve the changes
+
+For any conflict of changes:
