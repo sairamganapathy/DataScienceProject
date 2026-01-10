@@ -11,5 +11,8 @@ Step6: Commit the changes(now changes are made to local copy)
 Step7: Push the changes to GitHub(changes are pushed to Github - needs access)
 Step8: Go to github and pull request
 Step9: This goes to the owner of the project and he will approve the changes
+Step10: Use below code to pull the latest changes(do it every time - best practice)
+git pull
+Step11: Push the code with every changes(Other best practice)
 
 For any conflict of changes:
