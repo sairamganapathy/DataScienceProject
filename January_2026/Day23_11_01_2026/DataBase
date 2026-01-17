@@ -1,0 +1,63 @@
+DataBase:
+Storage and Retrieval
+
+Structured Storage - Structured Query Language
+
+1. MySQL
+2. MsServer
+3. Oracle
+4. PostGre
+5. PlSQL
+
+Each and Every SQL DB will have relationship
+between various process. (cardinality)
+
+Relational Data Base Management System
+
+Un-Structured Storage - No - SQL
+
+1. MongoDB - Non-RDBMS
+
+
+MySQL - DataBase
+
+Server:
+
+1. MySQL will be running as Service
+2. Even MongoDB will be running as a Service.
+
+Client:
+
+1. WorkBench(SQL)
+2. Compass (MongoDB)
+
+MYSQL - Architecture:
+
+1. Running:
+   1.1 CMD (CLI - Command Line Interface)
+   1.2 GUI (WorkBEnch)
+   1.3 Programming Language (Python)
+
+Flow:
+
+DataBase Connectivity:
+
+   1. Connect to the Existing DataBase
+   2. Create a DataBase and Connect
+
+Table:
+   1. Use the Existing Table
+   2. Create a new Table
+
+Commands:
+
+user : root
+Password : admin@123
+DataBase : uptor_116
+
+Commands:
+
+1. DML - Data Manipulation Language
+2. DDL - Data Descriptive Language
+3. DCL
+4. DQL
