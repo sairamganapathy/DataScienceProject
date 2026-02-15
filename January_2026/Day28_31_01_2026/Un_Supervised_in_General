@@ -1,0 +1,23 @@
+UnSupervised:
+
+1.Study or process of only our  feature data or x data or independent data
+
+2. unsupervised means no targe label
+
+General : Clustering or Grouping
+
+Types of Unsupervised Learning:
+
+1. Clustering or Group
+   1.1 KMeans
+   1.2 hierarchical Clustering
+       1.2.1 Agglomerative (Top-Down)
+       1.2.2 Divisive(Bottom - up)
+   1.3 DBScan - Density Based
+
+2. Dimensionality Reduction
+   2.1 PCA (Principle Component Analaysis)
+
+3. For Visualization with high dimension data:
+    (Converting data from high dimension space to low)
+   3.1 T-SNE (stochatic - Neighbour embedding)

@@ -1,0 +1,150 @@
+Stats and Maths
+
+1. Anything that we do by numbers is called stats or maths
+
+2. Descriptive, Inferential and Predictive
+
+    Descriptive ---> That tells u the detailing about the data
+
+    data = {"score":[2,3,4,5,6],"average":[4,5,6,7,8]}
+    df = pd.DataFrame(data)
+    print(df.describe())
+
+
+    Inferential ---> the outline or conclusion about the data
+
+    Predictive ----> Future Prediction with the value (model usage)
+
+3. Measure of Central Tendency
+
+    3.1 Mean
+    3.2 Median
+    3.3 Mode
+    3.4 Standard Deviation
+    3.5 Variance
+
+(pandas, numpy, statsmodel, scipy)
+
+what is diff between matplotlib , seaborn and plotly???
+
+4. Data Dispersion
+
+4.1 Range
+4.2 Percentile
+
+A percentile is a statistical measure used to indicate the value
+below which a given percentage of observations falls in a dataset.
+In simpler terms, it tells you how a particular value compares to the rest of the data.
+
+For example, if a student scores in the 80th percentile on a standardized test,
+it means that their score is higher than 80% of all other test takers.
+
+
+4.3 Quartile
+Quartiles are statistical measures used to divide a dataset into four equal parts or
+quarters.
+They are calculated by arranging the data in ascending order and then dividing it into four equal-sized groups.
+
+There are three quartiles, which are:
+
+First quartile (Q1): This is the value below which 25% of the data fall.
+In other words, 25% of the data points are less than or equal to Q1.
+
+Second quartile (Q2): This is the median of the dataset.
+It divides the data into two halves, with 50% of the data points falling below it and 50% above it.
+
+Third quartile (Q3): This is the value below which 75% of the data fall.
+75% of the data points are less than or equal to Q3.
+
+4.4 Interquartile Range
+
+Interquartile range is the difference between the 25th and 75th percentiles.
+
+It describes the middle 50% of the observations, and if they are spaced widely apart, their interquartile range will be large.
+It is useful even if the extreme values are not accurate, as it is insensitive to them.
+It is not amenable to mathematical manipulation.
+
+var = [2,5,6,500,6,-900]
+
+IQR - Inter Quaratile Range
+
+range between first quarter of the data and 3rd quarter of data
+
+5. Measure of Shape
+
+5.1 Skewness
+
+Skewness can be find using med_couple and robust_skewness function of statsmodels. Both does the same.
+
+med_couple directly gives you the result.
+
+positive result means ---> skewing on the right side
+negative result means ---> skewing on the left side
+zero result means ---> normal distribution
+
+same result will be for the robust_skewness as well but it will calculate the skewness using four
+different functions and all were pointing or telling the same. just see how it is falling (negative
+or positive)
+
+
+5.2 Kurtosis
+
+Kurtosis measures how heavy-tailed or light-tailed the distribution is relative to a normal distribution.
+
+Data with high kurtosis tend to have heavy tails or outliers.
+If kurtosis is low, there will be no outliers.
+A uniform distribution is an extreme case of low kurtosis.
+
+6. Co-Variance and Co-Relation
+
+In common - Both tries to find the relationship between two variable or two columns or two x data or
+two feature data.
+
+
+Postive Co-Relation
+--------------------
+
+Year   PRice
+2000     10000
+2001     20000
+2002     30000
+2003     40000
+
+No-Correlation
+-------------------------
+
+Fever    Vomit   Fatigue    Corona
+Yes         YEs     Yes         YEs
+No          Yes     Yes         No
+
+Negative Co-relation
+--------------------------
+
+Rain(CM)    Weather
+-----------------
+10          26 degree
+11          24 degree
+12          22 degree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

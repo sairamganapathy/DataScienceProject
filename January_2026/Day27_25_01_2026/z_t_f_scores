@@ -1,0 +1,81 @@
+Z-Score:(known standard deviation)
+
+1. It is the process of measuring how many standard deviations a data point is from
+the mean.
+
+2. Formula --->   z= (actual_data_point - mean)/std_deviation
+
+3. It will be normally distributed data
+
+4. outcome:
+
+    4.1 Positive Score(value is above the mean)
+    4.2 Negative Score(value is below the mean)
+
+T - Score:(unkmown standard deviation)
+
+almost the replica of the z-score but it is used when dont know the
+standard deviation.
+
+F- Score:
+
+IT is process finding difference in variance withing the group and between the group
+
+===============================================================================================================
+
+Weather Reports:
+
+
+Z-Score:(During larger data samples)
+
+Average Temperature of Mumbai :   70 F
+Actual  Temperature of Mumbai on March 2 :  85 F
+Actual  Temperature of Mumbai on Novemer 4 : 66 F
+
+T-Score:(less data samples)
+
+I moved to Chennai
+
+I dont have historical data of chennai weather whereas i have only recent weeks dataset about temperature
+
+F-Score:
+
+Chennai 40 F
+Mumbai  60 F
+Bangalore 55 F
+Chennai 45 F
+Mumbai  63 F
+Bangalore 54 F
+
+Chennai      Mumbai     Bangalore
+----------------------------------
+
+40              60        55
+45              62        58
+46              58        54
+47              64        53
+43              59        59
+-----------------------------
+
+45             58         55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

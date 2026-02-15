@@ -1,0 +1,39 @@
+PMF:
+
+1. probability of a specific results.
+2. it is in general comes up in the form of discrete random variables.
+
+Die Throwing:
+
+[1,2,3,4,5,6]
+
+mohan , what is the prob of getting 6
+
+1/6 = 0.2
+
+---------------------------------------------------------------------------------
+
+PDF: Probability Density Function
+
+it is meant of continous data.(relative liklihood)
+
+we have 38 members. if someone ask you that how of ous in the height of 150 cm?
+
+Answer: we may not exactly 150 cm , but we may get around 148 or 152
+
+--------------------------------------------------------------------------------
+
+CDF - Continous Distribution Function
+
+IT is applied for both discrete or cointinous data
+
+(finding probability in fly)
+
+[1,2,3,4,5,6]
+
+wht is the chance of getting dice to throw 1 or 2 P(X<=2)
+
+(1/6 + 1/6) => 33%()
+
+==========================================
+
