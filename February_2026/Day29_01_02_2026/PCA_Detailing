@@ -1,0 +1,21 @@
+bedrooms     bathrooms     sqft     year_built
+3               2           1500        2005
+4               3           2000        2009
+2               1            900        1998
+
+Feature (x):
+
+bedroom, bathroom, sqft, year_built
+
+StandardScaling:
+
+Note: PCA works on variance, so sqft and year_built will influence the output
+since it has large value that the other two.
+
+PCA:
+
+Internally our PCA will calculate covariance matrix for all features.
+Then, we will be finding eigenvectors (direction in space)
+Then, we will be finding eigenvalues (amount of variance)
+
+PCA1 = 0.6 * bedroom + 0.7 * bathroom + 0.3 * sqft - 0.1 * year_scaled

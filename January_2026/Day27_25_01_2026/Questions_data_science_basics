@@ -1,0 +1,99 @@
+1. What is normal distribution and uniform distribution?
+
+ Normal Distribution:
+
+ Anything that creates a curve in the form bell or symmetric is called normal distribution.
+ Which means data is spread based on the mean
+ so in most of the cases, mean median mode will looks similar for the normally distributed data without skewness
+
+ uniform Distribution:
+
+ Anything that is forming a rectangle shape curve or line or plot is called uniform distribution
+ as the name indicates, data will be uniformly distributed throughout
+
+2. What is skewness and kurtosis?
+
+This is usually coming during normal distribution.
+skewness is the process of finding the data flow on negative or positive skewness.
+kurtosis is hte process of finding how bigger the tail is.
+smaller the tail is less in outlier and vice versa.
+
+3. What is bernoulli  , binomial and poisson distribution?
+
+Bernoulli ---> Discrete + single output
+Binomial ---> Discrete + multiple trail + Positive result (Head or Tail)
+Poission ---> Same of the Trail but over the course of certain time interval
+
+4. what is the difference between isnull() and isna() ??
+
+isnull or isna() ---> is to check whether any cell of given data set is empty
+isnull().sum() ---> will give count of each of empty cell on column wise
+isnull().sum().sum() ---> overall total count null value in the entire dataset
+
+5. Which among the following is best method when we do find there is null data
+   a. dropna() .b. fillna()  c. ffill() 4. bfill()
+
+   Answer: Subjective to the dataset and its value.
+
+6. What is data cleaning and various process involved in data cleaning ?
+
+      data cleaning can also be called as data pre-processing and this can also be called data wrangling
+
+            1. null value and filling
+            2. finding duplicates and removing
+            3. feature Scaling:
+                   ---> StandardScaler
+                   ---> MinMaxScaler
+            4. feature engineering
+                      ---> Converting categorical data into numerical data
+            5. Feature Selection
+                   x data is called as feature data and it is called as independent data
+                   y data is called as target data and it is called dependendent data
+
+                   5.1
+                   For any model we can have either one x data or many x data
+                   bit
+                   for any model we can have only one y data or target data
+                   5.2
+                   We can choose the feature which we feel can give the output or help us in finding the output
+                   During the case in which we cant decide the feature selection , we use inbuilt library
+
+                   Types of Feature Selection:
+                       a. chi-square distribution method
+                       b. ANOVA method
+                       c. Correlation method
+
+            6. Dimensionality Reduction(PCA - Principal Componenet Analysis)
+                 Feature Selection is process of finding best columns among the given columns
+                 wheareas
+                 Dimensionality reduciton means creating a new column from the existing columns
+                 (unsupervised learning)
+
+
+                Average    Runs    Wickets
+                --------------------------
+
+
+                PCA1  PCA2
+                -----------
+
+            7. EDA (Exploratory Data Analysis)
+               see the visuals and try to analyse the data and its flows or distribution
+               Example:
+               BoxPlot ---> It will help us in identifying the outliers
+               HeatMAP ---> it will help us checking correlation matrix of hte given input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

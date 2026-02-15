@@ -1,0 +1,20 @@
+UnSupervised Learning but a Clustering.
+Dimensionality Reduction.
+
+It comes under Feature Engineering
+   Feature Extraction.
+
+Note: When we have lot of features and when we use all these feature as part of our
+input or model  it will end up in "Curse of Dimensionality"
+
+To OverCome Curse of Dimensionality we go two techniques:
+
+1. Feature Selection
+2. Feature Extraction
+   2.1 Feature Extraction is the concept of PCA
+   2.2 PCA is nothing but Principle Component Analysis
+   2.3 PCA is nothing but a process of converting high correlated data into non correlation data
+      2.3.1 this is done by the concept called "Eigen Vector"
+   2.4 It will create new columns from the existing column
+   2.5 New column creation number is based on "n_components" in our libray
+   2.6 We need to double ensure that even this feature were in same unit.

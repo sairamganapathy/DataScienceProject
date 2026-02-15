@@ -1,0 +1,22 @@
+K Means
+
+1. First it forms the clusters
+2. Next , it finds the centroids
+3. calculates the distance and attracts the near by distance
+4. this flows continues till it cannot move or attract further
+
+Note:
+
+1. Finding the optimal n_clusters values.
+   1.1 silhouette score
+   1.2 elbow method
+
+Hierarchical Clustering:
+
+1. Agglomerate(Bottom up)
+2. Divisive (Top Down)
+
+1. Agglomerate:
+   1. each and every data point is considered as clusters
+   2. each data points will get formed with another cluster
+   3. till the threshold is reached

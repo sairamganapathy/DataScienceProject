@@ -1,0 +1,18 @@
+ANOVA: Analysis of Variance
+
+Method: Stats based mechanisms
+
+ANOVA - f_classif (Classification based model)
+
+Note: ANOVa is one of the scoring method.
+
+List of Scoring Methods:
+
+1. f_classif
+2. f_regression
+3. chi-squared
+4. mutual information
+
+all this scoring method can be applied inside a Library called SelectKBest()
+
+Note: inside this select library only we will be using those scoring function.
